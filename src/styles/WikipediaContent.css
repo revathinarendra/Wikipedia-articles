@@ -1,0 +1,40 @@
+/* styles/WikipediaContent.module.css */
+
+.wikipediaContent {
+    /* Styling for links to appear blue like Wikipedia */
+    a {
+        color: #0645ad; /* Wikipedia-like blue */
+        text-decoration: underline;
+    }
+
+    /* Styling for visited links */
+    a:visited {
+        color: #0b0080; /* Wikipedia-like visited link color */
+    }
+
+    /* Heading styles similar to Wikipedia */
+    h2, h3, h4, h5, h6 {
+        font-family: Arial, sans-serif;
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+    }
+
+    /* Paragraph styling */
+    p {
+        font-family: Georgia, serif;
+        line-height: 1.6;
+        margin: 0.5em 0;
+    }
+
+    /* Image and figure styling */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    figure {
+        display: flex;
+        justify-content: center;
+        margin: 1em 0;
+    }
+}
